@@ -1,0 +1,42 @@
+<script>
+i=0;
+var images_js=new Array(); //new Array() - obiavili NOVII massiv
+images_js[0]="1.jpg";
+images_js[1]="2.jpg";
+images_js[2]="3.jpg";
+images_js[3]="4.jpg";
+images_js[4]="5.jpg";
+
+function f1() {
+i++;
+if(i==images_js.length){i=0;} //images_js.length - svoistvo dlini massiva
+
+document.images[0].src=images_js[i];
+
+id1=setTimeout('f1();', 2000);
+}
+
+function f2() {
+if(document.form1.b_stop.value=="stop"){
+document.form1.b_start.disabled=false;
+clearTimeout(id1);
+document.form1.b_stop.value="continue"
+}
+else{
+document.form1.b_start.disabled=false;
+document.form1.b_stop.value="stop";
+}
+}
+</script>
+<html>
+<head>
+</head>
+<body>
+<img name="img1" src="1.jpg" width="500"><br>
+<form name="form1">
+<input type="button" value="start" name="b_start" onclick="i=-1; f1(); this.disabled=true;">
+<input type="button" value="stop" name="b_stop" onclick="clearTimeout(id1); document.form1.b_start.disabled=false;"> 
+<input type="button" value="continue" onclick="f1(); this.value='STOP'"> 
+</form>
+</body>
+</html>

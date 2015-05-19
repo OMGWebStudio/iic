@@ -1,0 +1,301 @@
+/*.container1 {
+      position: relative;
+      margin-top:51px;
+      width:62%;
+      margin-left:auto;
+      margin-right:auto;
+    }
+    .content {
+      position: relative;
+      color: white;
+       z-index:4;
+      height:88px;
+   
+      width:100%;
+
+    }
+    .background {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      height: 100%;
+      background-color: #792439;
+     z-index:3;
+      /* These three lines are for transparency in all browsers. */
+     /* -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+      filter: alpha(opacity=50);
+      opacity: .5;
+      margin: auto;
+    }
+  body {
+
+    margin:0;
+    padding:0;
+  }
+  .logo {
+    z-index:10;
+    position:relative;
+    bottom:20px;
+    float:left;
+
+}
+  .container1 {
+     
+    float:left;
+    
+    font-size:18px;
+    line-height:25px;
+    
+  }
+  .cntainer1 ul {
+    list-style-type: none;
+   
+    float:left;
+    margin-right:15px;
+
+  }
+  .container2 ul li {
+    padding-left:13px;
+    display:inline;
+    
+ 
+  }
+a:link, a:visited {
+    
+    padding-top:20px;
+    padding-bottom:47px;
+    color: red;
+    }
+
+/*a:hover, a:active {
+    background-color: red;
+    color:#9d606f;
+    opacity:0.5;
+
+} 
+
+.logo2{
+  position:relative;
+
+  } */
+
+/*body{
+  margin:0;
+  padding:0;
+
+}
+  .container {
+    position:relative;
+    margin-top:51px;
+    width:1170px;
+    margin-left: auto;
+    margin-right:auto;
+  
+}
+.container2 {
+  width:100%;
+  
+  
+}
+.menu {
+  position:absolute;
+  top:0px;
+  left:0px;
+  width:100%;
+  background-color:rgba(121,36,58,0.7);
+   height:90px;
+}
+.text_menu ul {
+  list-style-type:none;
+  float:right;
+  
+  margin-top:40px;
+
+
+}
+.text_menu ul li {
+  float:left;
+  line-height:23px;
+
+  display:inline;
+  font-family: "MinionPro Regular", Helvetica,Arial, sans-serif; 
+  font-size:18px;
+
+
+
+
+}
+.text_menu ul li a{
+  color:white;
+  text-decoration: none;
+}
+.logo {
+  position:absolute;
+  top:-41px;
+  float:left;
+
+
+
+}
+
+
+
+.text_menu a:link, a:visited {
+    
+    
+    padding-right:26px;
+    padding-left:8px;
+   
+ 
+   
+}
+
+.text_menu a:hover, a:active {
+    background-color: #9f6171;
+    padding-top:41px;
+    padding-left:8px;
+    padding-bottom: 28px;
+    padding-right:26px;
+    
+}
+#principala a:hover, a:active{
+  background-color: #9f6171;
+    padding-left:3px;
+
+
+
+
+}
+*/
+
+
+.container {
+    position:relative;
+    margin-top:51px;
+    width:1170px;
+    margin-left: auto;
+    margin-right:auto;
+  
+}
+
+/*.container2 {
+  width:100%;
+  
+  
+}*/
+
+.logo {
+  position:absolute;
+  top:-41px;
+  float:left;
+
+}
+
+
+
+body {
+  background: white;
+  font-size:22px;
+  line-height: 23px;
+  color: #ffffff;
+  word-wrap:break-word !important;
+  font-family: 'Georgia', sans-serif;
+  margin:0;
+  padding:0;
+  }
+
+
+  
+
+
+
+
+
+
+
+
+nav { 
+  
+  position:absolute;
+  top:0px;
+  left:259px;
+  width:77.9%;
+  background-color:rgba(121,36,58,0.7);
+   height:90px;
+    
+}
+ nav li > ul > li >  a {     /* otstupi vnutri vipadaiushego menu menise delaet*/
+
+    line-height: 60px;
+
+ }
+
+
+nav ul {
+  padding:0;
+  margin:0;
+  list-style: none;
+  position: relative;
+  
+  }
+  
+nav ul li {
+  display:inline-block;
+  background-color:rgba(121,36,58);
+  }
+
+nav a {
+  display:block;
+  padding:0 20px; 
+  color:white;
+  font-size:16px;
+  line-height: 90px;
+  text-decoration:none;
+}
+
+nav a:hover { 
+  background-color:rgba(121,36,58,0.7);
+  
+}
+
+/* Hide Dropdowns by Default */
+nav ul ul {
+  display: none;
+  position: absolute; 
+  
+}
+  
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+  display:inherit;
+
+  }
+  
+/* Fisrt Tier Dropdown */
+nav ul ul li {
+  width:170px;
+  float:none;
+  display:list-item;
+  position: relative;
+  background-color:#9f6171;
+}
+
+.navlist li{    /* shirina poslednego menu tut */
+  background-color:#9f6171;
+  position:relative;
+  right:79px;
+
+}
+/* Second, Third and more Tiers */
+/*nav ul ul ul li {
+  position: relative;
+  top:-60px; 
+  left:170px;
+  background-color:yellow;
+}*/
+  
+  
+/* Change this in order to change the Dropdown symbol */
+/*li > a:after { content:  ' +'; }
+li > a:only-child:after { content: ''; } */
